@@ -1,0 +1,29 @@
+h5 {
+  text-align: center;
+  position: relative;
+  color: #113946;
+}
+
+h5::before {
+  width: 100px;
+  height: 6px;
+  background-color: #113946;
+  position: absolute;
+  content: "";
+  top: 40%;
+  left: 27%;
+}
+
+h5::after {
+  width: 100px;
+  height: 6px;
+  background-color: #113946;
+  position: absolute;
+  content: "";
+  top: 40%;
+  right: 27%;
+}
+
+.categories-section {
+  padding: 70px;
+}
