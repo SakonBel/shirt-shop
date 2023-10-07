@@ -4,7 +4,7 @@ import "./Hero.style.scss";
 
 const Hero = () => {
   return (
-    <div className="hero-section">
+    <section className="hero-section">
       <Container>
         <p>Comfort with style</p>
         <Typography
@@ -22,7 +22,7 @@ const Hero = () => {
           Shop now
         </Button>
       </Container>
-    </div>
+    </section>
   );
 };
 

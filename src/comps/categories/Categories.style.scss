@@ -1,29 +1,67 @@
-h5 {
+h3 {
   text-align: center;
-  position: relative;
   color: #113946;
+  position: relative;
 }
 
-h5::before {
+h3::before {
   width: 100px;
   height: 6px;
   background-color: #113946;
   position: absolute;
   content: "";
   top: 40%;
-  left: 27%;
+  left: -120px;
 }
 
-h5::after {
+h3::after {
   width: 100px;
   height: 6px;
   background-color: #113946;
   position: absolute;
   content: "";
   top: 40%;
-  right: 27%;
+  right: -120px;
 }
 
 .categories-section {
   padding: 70px;
+}
+
+.item {
+  border: #113946 solid 5px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-1 {
+  background-image: url(./../../assets/pexels-emre-keshavarz-5191436.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item-2 {
+  background-image: url(./../../assets/pexels-sindre-fs-1040945.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item-3 {
+  background-image: url(./../../assets/pexels-aman-jakhar-1124465.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item-4 {
+  background-image: url(./../../assets/pexels-ozan-çulha-17250951.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item h4 {
+  padding: 20px 50px;
+  border: #113946 solid 3px;
+  background-color: #fff2d8;
 }
